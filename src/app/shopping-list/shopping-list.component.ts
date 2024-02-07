@@ -16,6 +16,9 @@ export class ShoppingListComponent {
     new Ingredient('Fermento em pó', 1, 'colher'),
     
   ];
-
+  
+  onIngredientAdded(ingredient: Ingredient) {
+    this.ingredients.push(ingredient);
+  }
     
 }
